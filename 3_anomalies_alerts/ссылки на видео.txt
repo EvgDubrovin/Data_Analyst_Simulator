@@ -1,7 +1,0 @@
-Система алертов - https://www.youtube.com/watch?v=a1UPFV1sjDQ
-
-Пример реализации системы алертов - https://www.youtube.com/watch?v=fEsqCC7Pm7U
-
-https://youtu.be/9YRUEqUf-xo - Разбор Заданий 1
-https://youtu.be/PsynSVQB-dM - Разбор Заданий 2
-
