@@ -1,4 +1,4 @@
-# A|B Testing.
+# A|B Testing
 
 ## Scenario:
 The ML-team made a new recommendation algorithm to make posts more interesting for users. So, we have to measure if they really did. To check this we will measure CTR.
@@ -14,7 +14,7 @@ We have to repeatedly extract sub-samples with repetitions from our data, then c
 
 a) Simulate 10000 AA-tests.
 b) Form 500 users sub-samples with repetitions from 2 and 3 experimental group.
-c) Compare these groups with statistical t-test (and mann-whitney test).
+c) Compare these groups with statistical ***t-test***(and ***mann-whitney test***).
 
 *aa_test.ipynb* - AA-test.
 
@@ -25,7 +25,7 @@ c) Compare these groups with statistical t-test (and mann-whitney test).
 Our hypothesis is that the new algorithm in group 2 will increase the CTR.
 We have to analyze AB-test results.
 
-a) Select analysis method (t-test, mann-whitney test, bootstrap, smoothed ctr t-test, bucketing).
+a) Select analysis method (***t-test, mann-whitney test, bootstrap, smoothed ctr t-test, bucketing***).
 b) Analyze the results.
 c) Should we implement the new algorithm?
 
@@ -66,4 +66,4 @@ b) Analyze the test between groups 1 and 2 with linearized likes metric. Is ther
 
 *lnrzd_likes_metric_test.ipynb* - Linearized likes metric AB-test.
 
-The linearized likes metric is much more sensitive than CTR. It even shows statistically significant difference between groups 1 and 2.
+***The linearized likes metric*** is much more sensitive than CTR. It even shows statistically significant difference between groups 1 and 2.
