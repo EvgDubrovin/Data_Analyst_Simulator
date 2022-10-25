@@ -1,0 +1,46 @@
+# DAG
+@dag(default_args=default_args, schedule_interval=schedule_interval, catchup=False)
+def dag_dubrovin():
+	
+	metric_list ['event_date', 'likes', 'views', 'messages_sent', 'messages_received', 'users_sent', 'users_received']
+
+	.....
+
+	@task()
+	def join_tables(feed_df, messenger_df):
+		final_df = messenger_df.merge(feed_df, on=['user', 'event_date', 'gender', 'age', 'os'], how='outer').dropna()
+		return final_df
+		
+	@task
+	def transform_metric(df, metric):
+		full_metric_list = metric_list + [metric]
+		group_metric_list = ['event_date'] + [metric]
+		sliced_df = df[full_metric_list] \
+						.groupby(group_metric_list) \
+						.sum() \
+						reset_index()
+		return sliced_df
+		
+	.....
+		
+	# Выполняем таски 
+    # В feed_actions для каждого юзера посчитаем число просмотров и лайков контента. 
+    feed_df = extract_feed()
+	
+    # В message_actions для каждого юзера считаем, сколько он получает и отсылает сообщений, скольким людям он пишет, сколько людей пишут ему
+    messenger_df = extract_messenger()
+    
+    # Далее объединяем две таблицы в одну
+    full_df = join_tables(feed_df, messenger_df)
+	
+	# Метрики в разрезе по полу
+    gender = transform_metric(full_df, 'gender')
+    # Метрики в разрезе по возрасту
+    age = metrics_by_age(full_df, 'age')
+    # Метрики в разрезе по ОС
+    os = metrics_by_os(full_df, 'os')
+
+	.....
+	
+	# Загружаем таблицу в базу данных
+    load_table(fin_df)
