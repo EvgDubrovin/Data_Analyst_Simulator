@@ -1,0 +1,101 @@
+,user_id,post_id,action,time,gender,age,country,city,os,source,exp_group
+0,143977,3598,view,2022-04-25 23:59:59,1,22,Russia,Mytishchi,Android,organic,1
+1,154475,3567,view,2022-04-25 23:59:59,0,27,Russia,Alkhan-Kala,Android,organic,2
+2,151363,3645,view,2022-04-25 23:59:58,0,29,Russia,Voronezh,Android,organic,3
+3,145964,3628,view,2022-04-25 23:59:58,1,17,Russia,Kamyshin,Android,organic,1
+4,145964,3591,view,2022-04-25 23:59:58,1,17,Russia,Kamyshin,Android,organic,1
+5,129599,3592,view,2022-04-25 23:59:58,0,14,Russia,Samara,Android,organic,4
+6,116247,3617,view,2022-04-25 23:59:58,1,32,Russia,Izhevsk,iOS,organic,4
+7,111569,3515,view,2022-04-25 23:59:58,1,39,Russia,Perm,iOS,organic,3
+8,10286,3444,view,2022-04-25 23:59:58,1,23,Russia,Moscow,Android,ads,0
+9,149893,3444,view,2022-04-25 23:59:57,1,23,Russia,Roslavl,Android,organic,0
+10,149795,3588,view,2022-04-25 23:59:57,0,18,Russia,Yekaterinburg,Android,organic,3
+11,148576,3639,view,2022-04-25 23:59:57,1,38,Russia,Moscow,Android,organic,2
+12,145964,3618,view,2022-04-25 23:59:57,1,17,Russia,Kamyshin,Android,organic,1
+13,116247,3373,view,2022-04-25 23:59:57,1,32,Russia,Izhevsk,iOS,organic,4
+14,23462,3321,view,2022-04-25 23:59:57,0,45,Russia,Barabinsk,iOS,ads,1
+15,10286,3588,like,2022-04-25 23:59:57,1,23,Russia,Moscow,Android,ads,0
+16,149994,3515,view,2022-04-25 23:59:56,1,20,Russia,Moscow,Android,organic,0
+17,140198,3623,view,2022-04-25 23:59:56,0,36,Russia,Artëm,Android,organic,2
+18,138633,3404,like,2022-04-25 23:59:56,1,19,Russia,Tver,iOS,organic,4
+19,114834,3631,view,2022-04-25 23:59:56,0,20,Russia,Kuvandyk,Android,organic,2
+20,56258,3646,view,2022-04-25 23:59:56,1,14,Russia,Saint Petersburg,Android,ads,1
+21,33076,3462,view,2022-04-25 23:59:56,0,22,Russia,Moscow,Android,ads,2
+22,153407,3516,view,2022-04-25 23:59:55,1,23,Russia,Elektrostal,Android,organic,1
+23,151363,3464,view,2022-04-25 23:59:55,0,29,Russia,Voronezh,Android,organic,3
+24,149019,3535,view,2022-04-25 23:59:55,0,28,Russia,Novorossiysk,Android,organic,1
+25,53519,3654,view,2022-04-25 23:59:55,1,27,Russia,Rossosh,Android,ads,0
+26,52897,3614,view,2022-04-25 23:59:55,1,38,Russia,Moscow,iOS,ads,4
+27,51928,3637,view,2022-04-25 23:59:55,0,21,Russia,Astrakhan,Android,ads,1
+28,35046,3645,view,2022-04-25 23:59:55,0,18,Russia,Dolgoprudnyy,Android,ads,3
+29,30961,3612,view,2022-04-25 23:59:55,0,49,Russia,Orsk,Android,ads,3
+30,29793,3646,view,2022-04-25 23:59:55,1,21,Russia,Almak,iOS,ads,2
+31,22741,3592,view,2022-04-25 23:59:55,1,24,Russia,Kiselëvsk,iOS,ads,4
+32,149631,3623,like,2022-04-25 23:59:54,1,15,Russia,Saint Petersburg,iOS,organic,4
+33,149019,3646,view,2022-04-25 23:59:54,0,28,Russia,Novorossiysk,Android,organic,1
+34,117490,3369,view,2022-04-25 23:59:54,1,28,Russia,Tambov,Android,organic,0
+35,117490,3623,like,2022-04-25 23:59:54,1,28,Russia,Tambov,Android,organic,0
+36,33547,3411,view,2022-04-25 23:59:54,1,17,Russia,Orël,Android,ads,2
+37,16351,3629,view,2022-04-25 23:59:54,1,15,Russia,Tulun,Android,ads,3
+38,155604,3570,view,2022-04-25 23:59:53,1,21,Russia,Zelënodol’sk,iOS,organic,4
+39,154932,3534,view,2022-04-25 23:59:53,1,27,Russia,Kolpashevo,iOS,organic,2
+40,153380,3651,view,2022-04-25 23:59:53,0,32,Russia,Samara,Android,organic,0
+41,145268,3645,view,2022-04-25 23:59:53,0,28,Russia,Saratov,Android,organic,3
+42,149019,3634,view,2022-04-25 23:59:52,0,28,Russia,Novorossiysk,Android,organic,1
+43,146410,3591,view,2022-04-25 23:59:52,0,28,Russia,Irkutsk,Android,organic,3
+44,135147,3614,view,2022-04-25 23:59:52,0,20,Russia,Volsk,Android,organic,3
+45,117490,3444,like,2022-04-25 23:59:52,1,28,Russia,Tambov,Android,organic,0
+46,52382,3602,view,2022-04-25 23:59:52,0,35,Russia,Smolensk,Android,ads,3
+47,3868,3546,view,2022-04-25 23:59:52,0,24,Russia,Moscow,Android,ads,2
+48,52382,3540,view,2022-04-25 23:59:51,0,35,Russia,Smolensk,Android,ads,3
+49,51701,3512,view,2022-04-25 23:59:51,1,23,Russia,Rybinsk,Android,ads,1
+50,23462,3597,view,2022-04-25 23:59:51,0,45,Russia,Barabinsk,iOS,ads,1
+51,153076,3505,like,2022-04-25 23:59:50,0,19,Russia,Moscow,Android,organic,1
+52,145964,3636,view,2022-04-25 23:59:50,1,17,Russia,Kamyshin,Android,organic,1
+53,108224,3539,like,2022-04-25 23:59:50,1,24,Russia,Nerekhta,Android,organic,0
+54,38519,3582,view,2022-04-25 23:59:50,0,40,Russia,Skovorodino,Android,ads,4
+55,38519,3482,view,2022-04-25 23:59:50,0,40,Russia,Skovorodino,Android,ads,4
+56,33076,3562,like,2022-04-25 23:59:50,0,22,Russia,Moscow,Android,ads,2
+57,16351,3612,view,2022-04-25 23:59:50,1,15,Russia,Tulun,Android,ads,3
+58,149795,3385,view,2022-04-25 23:59:49,0,18,Russia,Yekaterinburg,Android,organic,3
+59,145222,3613,view,2022-04-25 23:59:49,0,18,Russia,Mednogorsk,Android,organic,1
+60,137223,3562,view,2022-04-25 23:59:49,0,27,Russia,Moscow,Android,organic,4
+61,130394,3512,view,2022-04-25 23:59:49,1,23,Kazakhstan,Temirtaū,Android,organic,1
+62,122118,3599,view,2022-04-25 23:59:49,1,22,Russia,Kazan,Android,organic,0
+63,122118,3444,view,2022-04-25 23:59:49,1,22,Russia,Kazan,Android,organic,0
+64,52382,3546,view,2022-04-25 23:59:49,0,35,Russia,Smolensk,Android,ads,3
+65,32175,3516,view,2022-04-25 23:59:49,1,30,Russia,Saint Petersburg,Android,ads,0
+66,149019,3613,view,2022-04-25 23:59:48,0,28,Russia,Novorossiysk,Android,organic,1
+67,56935,3615,view,2022-04-25 23:59:48,1,18,Russia,Saint Petersburg,Android,ads,0
+68,51928,3538,view,2022-04-25 23:59:48,0,21,Russia,Astrakhan,Android,ads,1
+69,37186,3380,view,2022-04-25 23:59:48,0,23,Russia,Chelyabinsk,Android,ads,1
+70,154610,3645,view,2022-04-25 23:59:47,0,23,Russia,Dudinka,iOS,organic,0
+71,152698,3390,view,2022-04-25 23:59:47,0,20,Russia,Moscow,Android,organic,0
+72,150342,3656,view,2022-04-25 23:59:47,0,25,Russia,Rybnoye,Android,organic,0
+73,150269,3613,view,2022-04-25 23:59:47,0,21,Russia,Moscow,Android,organic,1
+74,145964,3617,like,2022-04-25 23:59:47,1,17,Russia,Kamyshin,Android,organic,1
+75,144161,3621,view,2022-04-25 23:59:47,1,40,Russia,Shchigry,iOS,organic,0
+76,139686,3622,view,2022-04-25 23:59:47,0,49,Russia,Samara,Android,organic,0
+77,117490,3626,view,2022-04-25 23:59:47,1,28,Russia,Tambov,Android,organic,0
+78,7803,3540,like,2022-04-25 23:59:47,1,21,Russia,Staryy Oskol,Android,ads,2
+79,51809,3516,like,2022-04-25 23:59:47,0,17,Russia,Barnaul,Android,ads,0
+80,108249,3436,like,2022-04-25 23:59:47,0,29,Russia,Timashevsk,Android,organic,0
+81,15914,3651,view,2022-04-25 23:59:47,1,46,Russia,Vladimir,Android,ads,4
+82,29605,3623,view,2022-04-25 23:59:46,1,16,Kazakhstan,Almaty,Android,ads,1
+83,31928,3639,view,2022-04-25 23:59:46,1,24,Finland,Rovaniemi,Android,ads,2
+84,50798,3612,view,2022-04-25 23:59:46,1,25,Russia,Lipetsk,iOS,ads,3
+85,111569,3639,view,2022-04-25 23:59:46,1,39,Russia,Perm,iOS,organic,3
+86,137151,3540,view,2022-04-25 23:59:46,1,33,Russia,Orenburg,Android,organic,1
+87,149067,3645,view,2022-04-25 23:59:46,1,37,Russia,Moscow,iOS,organic,3
+88,149631,3512,view,2022-04-25 23:59:46,1,15,Russia,Saint Petersburg,iOS,organic,4
+89,149992,3616,view,2022-04-25 23:59:46,0,23,Russia,Moscow,iOS,organic,0
+90,136794,3411,view,2022-04-25 23:59:45,1,18,Russia,Kolpino,Android,organic,0
+91,140198,3524,view,2022-04-25 23:59:45,0,36,Russia,Artëm,Android,organic,2
+92,144842,3642,view,2022-04-25 23:59:45,0,19,Switzerland,Neuhausen am Rheinfall,Android,organic,1
+93,149631,3624,view,2022-04-25 23:59:45,1,15,Russia,Saint Petersburg,iOS,organic,4
+94,153432,3527,view,2022-04-25 23:59:45,0,22,Russia,Penza,Android,organic,1
+95,154711,3585,view,2022-04-25 23:59:45,1,43,Russia,Petropavlovka,Android,organic,2
+96,129004,3625,like,2022-04-25 23:59:45,1,28,Russia,Elista,iOS,organic,3
+97,8164,3547,view,2022-04-25 23:59:45,0,22,Russia,Moscow,Android,ads,3
+98,144161,3462,like,2022-04-25 23:59:44,1,40,Russia,Shchigry,iOS,organic,0
+99,129599,3656,view,2022-04-25 23:59:44,0,14,Russia,Samara,Android,organic,4

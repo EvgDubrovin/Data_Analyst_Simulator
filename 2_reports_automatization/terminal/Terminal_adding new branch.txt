@@ -1,0 +1,34 @@
+karpov@jupyter-e-2ddubrovin-2d6:~$ pwd
+/home/karpov
+
+karpov@jupyter-e-2ddubrovin-2d6:~$ git clone git@git.lab.karpov.courses:practice-da/analyst_simulator.git
+Cloning into 'analyst_simulator'...
+The authenticity of host 'git.lab.karpov.courses (116.203.248.181)' can't be established.
+ECDSA key fingerprint is SHA256:zoixDAa76yae+AZIH2iRbkDgq26WP0fFI48AvVx6Two.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'git.lab.karpov.courses,116.203.248.181' (ECDSA) to the list of known hosts.
+Enter passphrase for key '/home/karpov/.ssh/id_ed25519': 
+remote: Enumerating objects: 360, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 360 (delta 5), reused 26 (delta 5), pack-reused 334
+Receiving objects: 100% (360/360), 1.50 MiB | 6.79 MiB/s, done.
+Resolving deltas: 100% (170/170), done.
+
+karpov@jupyter-e-2ddubrovin-2d6:~$ cd analyst_simulator
+
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git branch
+* main
+
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git branch evgdubrovin/exploring_ws
+
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git checkout evgdubrovin/exploring_ws
+Switched to branch 'evgdubrovin/exploring_ws'
+
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git pull origin main
+Enter passphrase for key '/home/karpov/.ssh/id_ed25519': 
+From git.lab.karpov.courses:practice-da/analyst_simulator
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ 

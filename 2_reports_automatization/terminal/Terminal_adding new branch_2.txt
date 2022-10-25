@@ -1,0 +1,49 @@
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git status
+On branch evgdubrovin/exploring_ws
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   read_db/read_clickhouse.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        read_db/.ipynb_checkpoints/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git add read_db/read_clickhouse.py
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git commit -m 'top10_posts_yesterday'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'karpov@jupyter-e-2ddubrovin-2d6.(none)')
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git config --global user.email "eadubrovin@gmail.com"
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git config --global user.name "Evgeny Dubrovin"
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git
+git                 git-nbdifftool      git-nbmergetool     git-receive-pack    git-upload-archive  
+git-nbdiffdriver    git-nbmergedriver   gitpuller           git-shell           git-upload-pack     
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git commit -m 'top10_posts_yesterday'
+[evgdubrovin/exploring_ws 5ee493b] top10_posts_yesterday
+ 1 file changed, 14 insertions(+), 3 deletions(-)
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ git push origin evgdubrovin/exploring_ws
+Enter passphrase for key '/home/karpov/.ssh/id_ed25519': 
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 753 bytes | 753.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: 
+remote: To create a merge request for evgdubrovin/exploring_ws, visit:
+remote:   https://git.lab.karpov.courses/practice-da/analyst_simulator/-/merge_requests/new?merge_request%5Bsource_branch%5D=evgdubrovin%2Fexploring_ws
+remote: 
+To git.lab.karpov.courses:practice-da/analyst_simulator.git
+ * [new branch]      evgdubrovin/exploring_ws -> evgdubrovin/exploring_ws
+karpov@jupyter-e-2ddubrovin-2d6:~/analyst_simulator$ 

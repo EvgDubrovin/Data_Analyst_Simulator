@@ -1,0 +1,26 @@
+image: cr.yandex/crp742p3qacifd2hcon2/practice-da:latest
+
+stages:
+    - init
+    - run
+
+feed_report_job:
+    stage: run
+    script: 
+        - python feed_report.py
+    only: 
+        refs: 
+            - schedules
+        variables:
+            - $SCHEDULE_TYPE == 'start_feed_report'
+        
+        
+common_report_job:
+    stage: run
+    script: 
+        - python common_report.py
+    only: 
+        refs: 
+            - schedules
+        variables:
+            - $SCHEDULE_TYPE == 'start_common_report'
