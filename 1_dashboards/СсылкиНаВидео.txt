@@ -1,0 +1,11 @@
+Основные метрики - https://www.youtube.com/watch?v=9gPK5eoemJQ
+
+Оперативные данные - https://www.youtube.com/watch?v=DFgTxAl1qKE
+
+Superset calculated columns - https://www.youtube.com/watch?v=cxqO_vffaxg
+
+SQL запросы в Superset - https://www.youtube.com/watch?v=dmy_iLct9Wk
+
+
+
+Разбор урока Первый дашборд - https://www.youtube.com/watch?v=Cmq-e8JVuxk
