@@ -59,4 +59,5 @@ b) Analyze the test between groups 1 and 2 with linearized likes metric. Is ther
 
 *lnrzd_likes_metric_test.ipynb* - Linearized likes metric AB-test.
 
+**Answer:**  
 ***The linearized likes metric*** is much more sensitive than CTR. It even shows statistically significant difference between groups 1 and 2.
