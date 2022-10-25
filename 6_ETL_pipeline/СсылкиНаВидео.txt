@@ -1,5 +1,0 @@
-1. Как устроен Airflow - https://www.youtube.com/watch?v=u4T9CngjNmA
-
-2. Создаем свой первый DAG - https://www.youtube.com/watch?v=MkbZQqXq39M
-
-3. Дорабатываем первый DAG - https://www.youtube.com/watch?v=iL90zBcOH7w
