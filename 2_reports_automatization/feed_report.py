@@ -46,7 +46,7 @@ import os
 # bot_token = os.environ.get("tg_bot_token")
 # bot = telegram.Bot(token=os.environ.get("tg_bot_token"))
 
-bot = telegram.Bot(token='****************************************')
+bot = telegram.Bot(token='**********************************************')
 
 
 # In[76]:
