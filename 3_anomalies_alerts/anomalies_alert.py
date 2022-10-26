@@ -46,14 +46,14 @@ import os
 # # bot_token = os.environ.get("tg_bot_token")
 # # bot = telegram.Bot(token=os.environ.get("tg_bot_token"))
 
-# bot = telegram.Bot(token='5227151149:AAGkhDIQK5PZo1i88XKZ22INjOnBXq_06Z4')
+# bot = telegram.Bot(token='********************************************')
 
 
 # In[3]:
 
 
 # # Сохраним id, куда бот будет отправлять отчеты (наш id)
-# chat_id = 244991955
+# chat_id = *********
 
 
 # In[ ]:
