@@ -1,6 +1,6 @@
 # DASHBOARDS
 
-The initial task for data analysts in our startup - to answer the fundamental (but important) question - **"How many?"**  
+The initial task for data analysts in our startup - to answer the fundamental (but important) question - **"HOW MANY?"**  
   
   
 ## 1) News Feed Dashboards
