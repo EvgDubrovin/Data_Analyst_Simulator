@@ -9,4 +9,6 @@ The result of the script - a table with needed metrics and audience features - i
 
 *DAG.ipynb* - the script.
 
+*[Rendered DAG.ipynb](https://nbviewer.org/github/EvgDubrovin/Data_Analyst_Simulator/blob/main/6_ETL_pipeline/DAG.ipynb)*
+
 *fin_table.xlsx* - final result.
