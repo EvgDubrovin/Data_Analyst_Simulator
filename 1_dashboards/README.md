@@ -1,9 +1,11 @@
 # DASHBOARDS
 
-The initial task for data analysts in our startup - to answer the fundamental (but important) question - **"How many?"**  
+The initial task for data analysts in our startup - to answer the fundamental (but important) question - **"HOW MANY?"**  
   
   
-## News Feed Main Dashboard for Previous Period:
+## 1) News Feed Dashboards
+
+### News Feed Main Dashboard for Previous Period:
 
 Our **first task** is to make the main dashboard, that answers this question - How many (users, actions, etc.)? This is a dashboard for our core service - ***news feed***.
 
@@ -15,7 +17,7 @@ DAU, MAU, WAU, 	stickiness, retention, age distribution.
 views, likes, CTR (likes/views), average number of actions; top posts and top users; filter by source, gender, country and time frame.    
   
   
-## Live Data News Feed Dashboard:  
+### Live Data News Feed Dashboard:  
 
 **2-1-ЛентаНовостей-ОперативныеДанные.jpg-Главное** - **main data for today**:  
 top posts, top users; active users, views and likes with 1-day and 1-week offset; filter by post, source, gender, country and time frame.
@@ -24,7 +26,7 @@ top posts, top users; active users, views and likes with 1-day and 1-week offset
 total users, total posts, CTR; average views, average likes; 1-day retention.  
   
   
-## Feed + Messenger metrics:
+## 2) Feed + Messenger metrics
 
 Our **second task** is to make a dashboard that describes an interaction of both services - ***news feed and messenger***.
 

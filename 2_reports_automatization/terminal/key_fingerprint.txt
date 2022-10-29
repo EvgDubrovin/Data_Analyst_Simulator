@@ -1,5 +1,0 @@
-The key fingerprint is:
-SHA256:tH4iOGJVWnNpiIcSP6cOhTG7P8thfeY3VI6hkjN+ASE karpov@jupyter-e-2ddubrovin-2d6
-
-публичная часть ключа:
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOfGZxiv8nvoMOrQfK1rokdQlbNXlT4lKvsbkyUz0hjl karpov@jupyter-e-2ddubrovin-2d6
