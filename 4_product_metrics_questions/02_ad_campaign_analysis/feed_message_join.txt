@@ -1,0 +1,27 @@
+-- Объединим таблицы feed и messages
+
+SELECT * FROM
+  (
+  SELECT 
+    user_id, toDate(time) as day, 
+    countIf(post_id, action='view') as views, countIf(post_id, action='like') as likes
+  FROM 
+    simulator_20220420.feed_actions 
+  WHERE
+    toDate(time) <= '2022-05-15'
+  GROUP BY 
+    user_id, day
+  ) as f 
+FULL JOIN
+  (
+  SELECT
+    user_id, toDate(time) as day,
+    COUNT(reciever_id) AS messages 
+  FROM
+    simulator_20220420.message_actions 
+  WHERE
+    toDate(time) <= '2022-05-15'
+  GROUP BY 
+    user_id, day
+  ) as m
+USING user_id, day

@@ -1,0 +1,70 @@
+-- Retention в приложении за последние 30 дней с датами в формате дат
+
+
+SELECT birthday, day, source, SUM(num_of_users) as num_of_users
+FROM
+(
+-- Retention в ленте новостей за последние 30 дней
+SELECT
+  birthday, day, source, 
+  COUNT(DISTINCT user_id) as num_of_users
+FROM 
+  (
+  SELECT 
+      user_id, toDate(time) as day,
+      birthday, source
+  FROM
+      simulator_20220420.feed_actions as l 
+  LEFT JOIN
+    (
+    SELECT 
+      user_id, MIN(toDate(time)) AS birthday, MAX(source) as source
+    FROM
+      simulator_20220420.feed_actions
+    GROUP BY
+      user_id
+    ) as r 
+  USING user_id
+  WHERE birthday BETWEEN (today() - 30) AND (today() - 1) AND 
+        day BETWEEN (today() - 30) AND (today() - 1)
+  )
+GROUP BY 
+  birthday, day, source
+ORDER BY 
+  birthday, day
+  
+UNION ALL
+
+-- Retention в мессенджере за последние 30 дней
+SELECT
+  birthday, day, source, 
+  COUNT(DISTINCT user_id) as num_of_users
+FROM
+  (
+  SELECT 
+      user_id, toDate(time) as day,
+      birthday, source
+  FROM
+      simulator_20220420.message_actions as l 
+  LEFT JOIN
+    (
+    SELECT 
+      user_id, MIN(toDate(time)) AS birthday, MAX(source) as source
+    FROM
+      simulator_20220420.message_actions
+    GROUP BY
+      user_id
+    ) as r 
+  USING user_id
+  WHERE birthday BETWEEN (today() - 30) AND (today() - 1) AND 
+        day BETWEEN (today() - 30) AND (today() - 1)
+  )
+GROUP BY 
+  birthday, day, source
+ORDER BY 
+  birthday, day
+)
+GROUP BY 
+  birthday, day, source
+ORDER BY 
+  birthday, day
