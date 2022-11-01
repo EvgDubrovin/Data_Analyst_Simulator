@@ -6,7 +6,7 @@ Metrics to check are: **DAU**, **views**, **likes**, **CTR**, **messages**.
 
 To detect anomaly value I used the statistical **rule of sigmas** and **method of interquartile range**.
 
-The alert script running is automated with **GitLab CI/CD**.
+Run of the alert script is automated with **GitLab CI/CD**.
 
 *anomalies_alert.ipynb* - script for alert reporting.
 
