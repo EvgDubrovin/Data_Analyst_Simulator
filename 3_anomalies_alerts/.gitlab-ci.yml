@@ -4,34 +4,9 @@ stages:
     - init
     - run
 
-feed_report_job:
+anomaly_alert_job:
     stage: run
-    script: 
-        - python feed_report.py
-    only: 
-        refs: 
-            - schedules
-        variables:
-            - $SCHEDULE_TYPE == 'start_feed_report'
-        
-        
-common_report_job:
-    stage: run
-    script: 
-        - python common_report.py
-    only: 
-        refs: 
-            - schedules
-        variables:
-            - $SCHEDULE_TYPE == 'start_common_report'
-            
-            
-alert_report_job:
-    stage: run
-    script: 
-        - python anomalies_alert.py
-    only: 
-        refs: 
-            - schedules
-        variables:
-            - $SCHEDULE_TYPE == 'start_alert_report'
+    only:
+        - schedules
+    script:
+        - python anomaly_alert.py
