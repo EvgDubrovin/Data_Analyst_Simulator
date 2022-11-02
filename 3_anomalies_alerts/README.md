@@ -8,7 +8,7 @@ To detect anomaly value I used the statistical **rule of sigmas** and **method o
 
 Run of the alert script is automated with **GitLab CI/CD**.
 
-*anomalies_alert.ipynb* - script for alert reporting.
+*anomaly_alert.ipynb* - script for alert reporting.
 
 *[Rendered anomalies_alert.ipynb](https://nbviewer.org/github/EvgDubrovin/Data_Analyst_Simulator/blob/main/3_anomalies_alerts/anomalies_alert.ipynb)*
 
