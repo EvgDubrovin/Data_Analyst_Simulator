@@ -10,7 +10,7 @@ Run of the alert script is automated with **GitLab CI/CD**.
 
 *anomaly_alert.ipynb* - script for alert reporting.
 
-*[Rendered anomaly_alert.ipynb](https://nbviewer.org/github/EvgDubrovin/Data_Analyst_Simulator/blob/main/3_anomalies_alerts/anomalies_alert.ipynb)*
+*[Rendered anomaly_alert.ipynb](https://nbviewer.org/github/EvgDubrovin/Data_Analyst_Simulator/blob/main/3_anomalies_alerts/anomaly_alert.ipynb)*
 
 *anomaly_alert.png* - the view of anomaly reports in Telegram.
 
