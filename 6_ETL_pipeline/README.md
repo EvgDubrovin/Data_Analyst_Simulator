@@ -1,6 +1,6 @@
 # ETL-pipeline with Airflow
 
-Here's a script in Airflow that runs automatically every day for yesterday. 
+Here's a script in Airflow that runs automatically every day. 
 
 The result of the script - a table with needed metrics and audience features - is downloaded into Clickhouse scheme.
 
