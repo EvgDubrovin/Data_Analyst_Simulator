@@ -1,4 +1,4 @@
-# A|B Testing
+# A/B Testing
 
 ## Scenario:
 The ML-team made a new recommendation algorithm to make posts more interesting for users. So, we have to measure if they really did. To check this we will measure CTR.
