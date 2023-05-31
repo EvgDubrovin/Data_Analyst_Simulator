@@ -7,7 +7,7 @@ The initial task for data analysts in our startup - to answer the fundamental (b
 
 ### News Feed Main Dashboard for Previous Period:
 
-Our **first task** is to make the main dashboard, that answers this question - How many (users, actions, etc.)? This is a dashboard for our core service - ***news feed***.
+The main dashboard, that answers this question - **How many (users, actions, etc.)?** This is a dashboard for our core service - ***news feed***.
 
 **1-1-Feed-MainMetrics-Audience.jpg** - **main audience metrics**:  
 DAU, MAU, WAU, 	stickiness, retention, age distribution.  
@@ -28,7 +28,7 @@ total users, total posts, CTR; average views, average likes; 1-day retention.
   
 ## 2) Feed + Messenger metrics
 
-Our **second task** is to make a dashboard that describes an interaction of both services - ***news feed and messenger***.
+A dashboard that describes an **interaction** of both services - ***news feed and messenger***.
 
 **3-1-Feed+Messenger-Interaction-Metrics**:  
 DAU (feed + messenger), DAU(feed only), DAU (messenger only); total views, likes, messages; average views, likes, messages; likes-messages-views bubble chart; filter by time.
