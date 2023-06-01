@@ -1,6 +1,6 @@
 # Alerting system
 
-We need to create a real-time alerting system, that checks our data for anomalies live every 15 minutes and send reports to Telegram chat.
+The goal was to create a real-time alerting system that checks our data for anomalies live every 15 minutes and send reports to Telegram chat.
 
 Metrics to check are: **DAU**, **views**, **likes**, **CTR**, **messages**.
 
